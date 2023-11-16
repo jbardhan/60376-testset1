@@ -33,8 +33,8 @@ ATOM NH2  NC2    -0.70
 ATOM HH21 HC      0.40
 ATOM HH22 HC      0.40
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB  CA  CG  CB  CD CG  NE CD  CZ NE   
 BOND NH2 CZ  N  HN  N  CA   
 BOND C   CA  C  +N  CA HA  CB HB1   
@@ -78,34 +78,34 @@ IC HH21 CZ   *NH2 HH22  0.9899 119.9100  166.1600 116.8800  0.9914
 
 RESI JR2         0.00  ! unprotonated form 1: no charge at H12
 GROUP   
-ATOM N    NH1    -0.47  !     |                      HH11
-ATOM HN   H       0.31  !  HN-N                       |
-ATOM CA   CT1     0.07  !     |   HB1 HG1 HD1 HE     NH1-HH12
-ATOM HA   HB      0.09  !     |   |   |   |   |    //(+)  
+ATOM N    NH1    -0.40  !     |                      HH11
+ATOM HN   H       0.40  !  HN-N                       |
+ATOM CA   CT1     0.00  !     |   HB1 HG1 HD1 HE     NH1-HH12
+ATOM HA   HB      0.00  !     |   |   |   |   |    //(+)  
 GROUP                   !  HA-CA--CB--CG--CD--NE--CZ
-ATOM CB   CT2    -0.18  !     |   |   |   |         \
-ATOM HB1  HA      0.09  !     |   HB2 HG2 HD2        NH2-HH22
-ATOM HB2  HA      0.09  !   O=C                       |
+ATOM CB   CT2    -0.00  !     |   |   |   |         \
+ATOM HB1  HA      0.00  !     |   HB2 HG2 HD2        NH2-HH22
+ATOM HB2  HA      0.00  !   O=C                       |
 GROUP                   !     |                      HH21
-ATOM CG   CT2    -0.18
-ATOM HG1  HA      0.09
-ATOM HG2  HA      0.09
+ATOM CG   CT2    -0.00
+ATOM HG1  HA      0.00
+ATOM HG2  HA      0.00
 GROUP   
-ATOM CD   CT2    -0.11
-ATOM HD1  HA      0.09
-ATOM HD2  HA      0.09
-ATOM NE   NC2    -0.54
-ATOM HE   HC      0.36
-ATOM CZ   C       0.59
-ATOM NH1  NC2    -0.91
-ATOM HH11 HC      0.37
-ATOM HH12 HC      0.00
-ATOM NH2  NC2    -0.60
-ATOM HH21 HC      0.33
-ATOM HH22 HC      0.33
+ATOM CD   CT2     0.28
+ATOM HD1  HA      0.00
+ATOM HD2  HA      0.00
+ATOM NE   NC2    -0.56
+ATOM HE   HC      0.00
+ATOM CZ   C       0.28
+ATOM NH1  NC2    -0.75
+ATOM HH11 HC      0.375
+ATOM HH12 HC      0.375
+ATOM NH2  NC2    -0.75
+ATOM HH21 HC      0.375
+ATOM HH22 HC      0.375
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB  CA  CG  CB  CD CG  NE CD  CZ NE   
 BOND NH2 CZ  N  HN  N  CA   
 BOND C   CA  C  +N  CA HA  CB HB1   
@@ -296,24 +296,24 @@ IC HH21 CZ   *NH2 HH22  0.9899 119.9100  166.1600 116.8800  0.9914
 !  -0.17 = -0.61 + 0.44, 
 RESI JE1         0.00  ! Protonated form: same number of
 GROUP   
-ATOM N    NH1    -0.47  !     |          
-ATOM HN   H       0.31  !  HN-N          
-ATOM CA   CT1     0.07  !     |   HB1 HG1   OE1
-ATOM HA   HB      0.09  !     |   |   |    //
+ATOM N    NH1    -0.40  !     |          
+ATOM HN   H       0.40  !  HN-N          
+ATOM CA   CT1     0.00  !     |   HB1 HG1   OE1
+ATOM HA   HB      0.00  !     |   |   |    //
 GROUP                   !  HA-CA--CB--CG--CD
-ATOM CB   CT2    -0.18  !     |   |   |    \
-ATOM HB1  HA      0.09  !     |   HB2 HG2   OE2(-)
-ATOM HB2  HA      0.09  !   O=C          
+ATOM CB   CT2    -0.00  !     |   |   |    \
+ATOM HB1  HA      0.00  !     |   HB2 HG2   OE2(-)
+ATOM HB2  HA      0.00  !   O=C          
 GROUP                   !     |          
-ATOM CG   CT2    -0.21
-ATOM HG1  HA      0.09
-ATOM HG2  HA      0.09
-ATOM CD   CC      0.75
-ATOM OE1  OC     -0.55
-ATOM OE2  OC     -0.17
+ATOM CG   CT2    -0.00
+ATOM HG1  HA      0.00
+ATOM HG2  HA      0.00
+ATOM CD   CC      0.55
+ATOM OE1  OC     -0.49
+ATOM OE2  OC     -0.06
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB CA  CG CB  CD CG  OE2 CD   
 BOND N  HN  N  CA C   CA   
 BOND C  +N  CA HA  CB HB1 CB  HB2 CG  HG1   
@@ -344,24 +344,24 @@ IC OE1  CG   *CD  OE2   1.2590 114.9900 -179.1000 120.0800  1.2532
 
 RESI JE2        -1.00  ! deprotonated form, standard CHARMM
 GROUP   
-ATOM N    NH1    -0.47  !     |          
-ATOM HN   H       0.31  !  HN-N          
-ATOM CA   CT1     0.07  !     |   HB1 HG1   OE1
-ATOM HA   HB      0.09  !     |   |   |    //
+ATOM N    NH1    -0.40  !     |          
+ATOM HN   H       0.40  !  HN-N          
+ATOM CA   CT1     0.00  !     |   HB1 HG1   OE1
+ATOM HA   HB      0.00  !     |   |   |    //
 GROUP                   !  HA-CA--CB--CG--CD
-ATOM CB   CT2    -0.18  !     |   |   |    \
-ATOM HB1  HA      0.09  !     |   HB2 HG2   OE2(-)
-ATOM HB2  HA      0.09  !   O=C          
+ATOM CB   CT2    -0.00  !     |   |   |    \
+ATOM HB1  HA      0.00  !     |   HB2 HG2   OE2(-)
+ATOM HB2  HA      0.00  !   O=C          
 GROUP                   !     |          
-ATOM CG   CT2    -0.28
-ATOM HG1  HA      0.09
-ATOM HG2  HA      0.09
-ATOM CD   CC      0.62
-ATOM OE1  OC     -0.76
-ATOM OE2  OC     -0.76
+ATOM CG   CT2    -0.00
+ATOM HG1  HA      0.00
+ATOM HG2  HA      0.00
+ATOM CD   CC      0.10
+ATOM OE1  OC     -0.55
+ATOM OE2  OC     -0.55
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB CA  CG CB  CD CG  OE2 CD   
 BOND N  HN  N  CA C   CA   
 BOND C  +N  CA HA  CB HB1 CB  HB2 CG  HG1   
@@ -395,20 +395,20 @@ IC OE1  CG   *CD  OE2   1.2590 114.9900 -179.1000 120.0800  1.2532
 ! all other charges are taken to be the PRES ASPP actual charges
 RESI JD1         0.00
 GROUP   
-ATOM N    NH1    -0.47  !     |       
-ATOM HN   H       0.31  !  HN-N       
-ATOM CA   CT1     0.07  !     |   HB1   OD1
-ATOM HA   HB      0.09  !     |   |    //
+ATOM N    NH1    -0.40  !     |       
+ATOM HN   H       0.40  !  HN-N       
+ATOM CA   CT1     0.00  !     |   HB1   OD1
+ATOM HA   HB      0.00  !     |   |    //
 GROUP                   !  HA-CA--CB--CG
-ATOM CB   CT2    -0.21  !     |   |    \
-ATOM HB1  HA      0.09  !     |   HB2   OD2(-)
-ATOM HB2  HA      0.09  !   O=C           
-ATOM CG   CC      0.75  !     |           
-ATOM OD1  OC     -0.55
-ATOM OD2  OC     -0.17
+ATOM CB   CT2    -0.00  !     |   |    \
+ATOM HB1  HA      0.00  !     |   HB2   OD2(-)
+ATOM HB2  HA      0.00  !   O=C           
+ATOM CG   CC      0.55  !     |           
+ATOM OD1  OC     -0.49
+ATOM OD2  OC     -0.06
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB CA  CG CB  OD2 CG   
 BOND N  HN  N  CA   C   CA  C +N   
 BOND CA HA  CB HB1  CB HB2   
@@ -436,20 +436,20 @@ IC OD1  CB   *CG  OD2   1.2565 117.9900 -170.2300 117.7000  1.2541
 
 RESI JD2        -1.00  ! regular deprotonated ASP
 GROUP   
-ATOM N    NH1    -0.47  !     |       
-ATOM HN   H       0.31  !  HN-N       
-ATOM CA   CT1     0.07  !     |   HB1   OD1
-ATOM HA   HB      0.09  !     |   |    //
+ATOM N    NH1    -0.40  !     |       
+ATOM HN   H       0.40  !  HN-N       
+ATOM CA   CT1     0.00  !     |   HB1   OD1
+ATOM HA   HB      0.00  !     |   |    //
 GROUP                   !  HA-CA--CB--CG
-ATOM CB   CT2    -0.28  !     |   |    \
-ATOM HB1  HA      0.09  !     |   HB2   OD2(-)
-ATOM HB2  HA      0.09  !   O=C           
-ATOM CG   CC      0.62  !     |           
-ATOM OD1  OC     -0.76
-ATOM OD2  OC     -0.76
+ATOM CB   CT2    -0.00  !     |   |    \
+ATOM HB1  HA      0.00  !     |   HB2   OD2(-)
+ATOM HB2  HA      0.00  !   O=C           
+ATOM CG   CC      0.10  !     |           
+ATOM OD1  OC     -0.55
+ATOM OD2  OC     -0.55
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB CA  CG CB  OD2 CG   
 BOND N  HN  N  CA   C   CA  C +N   
 BOND CA HA  CB HB1  CB HB2   
@@ -477,35 +477,35 @@ IC OD1  CB   *CG  OD2   1.2565 117.9900 -170.2300 117.7000  1.2541
 
 RESI JY1         0.00
 GROUP   
-ATOM N    NH1    -0.47  !     |        HD1  HE1    
-ATOM HN   H       0.31  !  HN-N         |    |   
-ATOM CA   CT1     0.07  !     |   HB1  CD1--CE1
-ATOM HA   HB      0.09  !     |   |   //      \\
+ATOM N    NH1    -0.40  !     |        HD1  HE1    
+ATOM HN   H       0.40  !  HN-N         |    |   
+ATOM CA   CT1     0.00  !     |   HB1  CD1--CE1
+ATOM HA   HB      0.00  !     |   |   //      \\
 GROUP                   !  HA-CA--CB--CG      CZ--OH
-ATOM CB   CT2    -0.18  !     |   |    \  __  /     \
-ATOM HB1  HA      0.09  !     |   HB2  CD2--CE2     HH
-ATOM HB2  HA      0.09  !   O=C         |    |  
+ATOM CB   CT2     0.125 !     |   |    \  __  /     \
+ATOM HB1  HA      0.00  !     |   HB2  CD2--CE2     HH
+ATOM HB2  HA      0.00  !   O=C         |    |  
 GROUP                   !     |        HD2  HE2   
-ATOM CG   CA      0.00
+ATOM CG   CA     -0.125
 GROUP   
-ATOM CD1  CA     -0.115
-ATOM HD1  HP      0.115
+ATOM CD1  CA     -0.125
+ATOM HD1  HP      0.125
 GROUP   
-ATOM CE1  CA     -0.115
-ATOM HE1  HP      0.115
+ATOM CE1  CA     -0.125
+ATOM HE1  HP      0.125
 GROUP
-ATOM CZ   CA      0.11
-ATOM OH   OH1    -0.54
-ATOM HH   H       0.43
+ATOM CZ   CA      0.055
+ATOM OH   OH1    -0.49
+ATOM HH   H       0.435
 GROUP
-ATOM CD2  CA     -0.115
-ATOM HD2  HP      0.115
+ATOM CD2  CA     -0.125
+ATOM HD2  HP      0.125
 GROUP
-ATOM CE2  CA     -0.115
-ATOM HE2  HP      0.115
+ATOM CE2  CA     -0.125
+ATOM HE2  HP      0.125
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB  CA   CG  CB   CD2 CG   CE1 CD1   
 BOND CZ  CE2  OH  CZ   
 BOND N   HN   N   CA    C   CA   C   +N   
@@ -542,35 +542,35 @@ IC CE1  CZ   OH   HH    1.3978 119.6800  175.4500 107.4700  0.9594
 
 RESI JY2        -1.00
 GROUP   
-ATOM N    NH1    -0.47  !     |        HD1  HE1    
-ATOM HN   H       0.31  !  HN-N         |    |   
-ATOM CA   CT1     0.07  !     |   HB1  CD1--CE1
-ATOM HA   HB      0.09  !     |   |   //      \\
+ATOM N    NH1    -0.40  !     |        HD1  HE1    
+ATOM HN   H       0.40  !  HN-N         |    |   
+ATOM CA   CT1     0.00  !     |   HB1  CD1--CE1
+ATOM HA   HB      0.00  !     |   |   //      \\
 GROUP                   !  HA-CA--CB--CG      CZ--OH
-ATOM CB   CT2    -0.18  !     |   |    \  __  /     \
-ATOM HB1  HA      0.09  !     |   HB2  CD2--CE2     HH
-ATOM HB2  HA      0.09  !   O=C         |    |  
+ATOM CB   CT2     0.125 !     |   |    \  __  /     \
+ATOM HB1  HA      0.00  !     |   HB2  CD2--CE2     HH
+ATOM HB2  HA      0.00  !   O=C         |    |  
 GROUP                   !     |        HD2  HE2   
-ATOM CG   CA      0.00
+ATOM CG   CA     -0.195
 GROUP   
-ATOM CD1  CA     -0.115
-ATOM HD1  HP      0.115
+ATOM CD1  CA     -0.195
+ATOM HD1  HP      0.125
 GROUP   
-ATOM CE1  CA     -0.115
-ATOM HE1  HP      0.115
+ATOM CE1  CA     -0.195
+ATOM HE1  HP      0.125
 GROUP
-ATOM CZ   CA     -0.24
-ATOM OH   OH1    -0.76
+ATOM CZ   CA     -0.07
+ATOM OH   OH1    -0.58
 ATOM HH   H       0.00
 GROUP
-ATOM CD2  CA     -0.115
-ATOM HD2  HP      0.115
+ATOM CD2  CA     -0.195
+ATOM HD2  HP      0.125
 GROUP
-ATOM CE2  CA     -0.115
-ATOM HE2  HP      0.115
+ATOM CE2  CA     -0.195
+ATOM HE2  HP      0.125
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB  CA   CG  CB   CD2 CG   CE1 CD1   
 BOND CZ  CE2  OH  CZ   
 BOND N   HN   N   CA    C   CA   C   +N   
@@ -608,33 +608,33 @@ IC CE1  CZ   OH   HH    1.3978 119.6800  175.4500 107.4700  0.9594
 
 RESI JK1          1.00 
 GROUP   
-ATOM N    NH1    -0.47  !     |                   
-ATOM HN   H       0.31  !  HN-N                   
-ATOM CA   CT1     0.07  !     |   HB1 HG1 HD1 HE1    HZ1
-ATOM HA   HB      0.09  !     |   |   |   |   |     /   
+ATOM N    NH1    -0.40  !     |                   
+ATOM HN   H       0.40  !  HN-N                   
+ATOM CA   CT1     0.00  !     |   HB1 HG1 HD1 HE1    HZ1
+ATOM HA   HB      0.00  !     |   |   |   |   |     /   
 GROUP                   !  HA-CA--CB--CG--CD--CE--NZ--HZ2
-ATOM CB   CT2    -0.18  !     |   |   |   |   |     \
-ATOM HB1  HA      0.09  !     |   HB2 HG2 HD2 HE2    HZ3
-ATOM HB2  HA      0.09  !   O=C                  
+ATOM CB   CT2    -0.00  !     |   |   |   |   |     \
+ATOM HB1  HA      0.00  !     |   HB2 HG2 HD2 HE2    HZ3
+ATOM HB2  HA      0.00  !   O=C                  
 GROUP                   !     |                  
-ATOM CG   CT2    -0.18
-ATOM HG1  HA      0.09
-ATOM HG2  HA      0.09
+ATOM CG   CT2    -0.00
+ATOM HG1  HA      0.00
+ATOM HG2  HA      0.00
 GROUP   
-ATOM CD   CT2    -0.18
-ATOM HD1  HA      0.09
-ATOM HD2  HA      0.09
+ATOM CD   CT2    -0.00
+ATOM HD1  HA      0.00
+ATOM HD2  HA      0.00
 GROUP   
-ATOM CE   CT2     0.21
-ATOM HE1  HA      0.05
-ATOM HE2  HA      0.05
-ATOM NZ   NH3    -0.30
+ATOM CE   CT2     0.33
+ATOM HE1  HA      0.00
+ATOM HE2  HA      0.00
+ATOM NZ   NH3    -0.32
 ATOM HZ1  HC      0.33
 ATOM HZ2  HC      0.33
 ATOM HZ3  HC      0.33
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB CA   CG CB   CD CG   CE CD   NZ CE   
 BOND N  HN   N  CA    C  CA   
 BOND C  +N   CA HA   CB HB1  CB HB2  CG HG1   
@@ -673,33 +673,33 @@ IC HZ1  CE   *NZ  HZ3   1.0404 110.0200 -120.1300 109.4000  1.0401
 
 RESI JK2         0.00
 GROUP   
-ATOM N    NH1    -0.47  !     |                   
-ATOM HN   H       0.31  !  HN-N                   
-ATOM CA   CT1     0.07  !     |   HB1 HG1 HD1 HE1    HZ1
-ATOM HA   HB      0.09  !     |   |   |   |   |     /   
+ATOM N    NH1    -0.40  !     |                   
+ATOM HN   H       0.40  !  HN-N                   
+ATOM CA   CT1     0.00  !     |   HB1 HG1 HD1 HE1    HZ1
+ATOM HA   HB      0.00  !     |   |   |   |   |     /   
 GROUP                   !  HA-CA--CB--CG--CD--CE--NZ--HZ2
-ATOM CB   CT2    -0.18  !     |   |   |   |   |     \
-ATOM HB1  HA      0.09  !     |   HB2 HG2 HD2 HE2    HZ3
-ATOM HB2  HA      0.09  !   O=C                  
+ATOM CB   CT2    -0.00  !     |   |   |   |   |     \
+ATOM HB1  HA      0.00  !     |   HB2 HG2 HD2 HE2    HZ3
+ATOM HB2  HA      0.00  !   O=C                  
 GROUP                   !     |                  
-ATOM CG   CT2    -0.18
-ATOM HG1  HA      0.09
-ATOM HG2  HA      0.09
+ATOM CG   CT2    -0.00
+ATOM HG1  HA      0.00
+ATOM HG2  HA      0.00
 GROUP   
-ATOM CD   CT2    -0.18
-ATOM HD1  HA      0.09
-ATOM HD2  HA      0.09
+ATOM CD   CT2    -0.00
+ATOM HD1  HA      0.00
+ATOM HD2  HA      0.00
 GROUP   
-ATOM CE   CT2     0.13
-ATOM HE1  HA      0.075
-ATOM HE2  HA      0.075
-ATOM NZ   NH3    -0.96
-ATOM HZ1  HC      0.00
-ATOM HZ2  HC      0.34
-ATOM HZ3  HC      0.34
+ATOM CE   CT2     0.00
+ATOM HE1  HA      0.00
+ATOM HE2  HA      0.00
+ATOM NZ   NH3    -0.78
+ATOM HZ1  HC      0.39
+ATOM HZ2  HC      0.39
+ATOM HZ3  HC      0.00
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB CA   CG CB   CD CG   CE CD   NZ CE   
 BOND N  HN   N  CA    C  CA   
 BOND C  +N   CA HA   CB HB1  CB HB2  CG HG1   
@@ -869,19 +869,19 @@ IC HZ1  CE   *NZ  HZ3   1.0404 110.0200 -120.1300 109.4000  1.0401
 
 RESI JC1         0.00
 GROUP   
-ATOM N    NH1    -0.47  !     |       
-ATOM HN   H       0.31  !  HN-N       
-ATOM CA   CT1     0.07  !     |   HB1
-ATOM HA   HB      0.09  !     |   |  
+ATOM N    NH1    -0.40  !     |       
+ATOM HN   H       0.40  !  HN-N       
+ATOM CA   CT1     0.00  !     |   HB1
+ATOM HA   HB      0.00  !     |   |  
 GROUP                   !  HA-CA--CB--SG
-ATOM CB   CT2    -0.11  !     |   |     \
-ATOM HB1  HA      0.09  !     |   HB2    HG1
-ATOM HB2  HA      0.09  !   O=C           
-ATOM SG   S      -0.23  !     |           
-ATOM HG1  HS      0.16
+ATOM CB   CT2    -0.00  !     |   |     \
+ATOM HB1  HA      0.00  !     |   HB2    HG1
+ATOM HB2  HA      0.00  !   O=C           
+ATOM SG   S      -0.29  !     |           
+ATOM HG1  HS      0.29
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB CA   SG CB   N HN  N  CA   
 BOND C  CA   C +N  CA HA  CB HB1   
 BOND CB HB2  SG HG1
@@ -906,19 +906,19 @@ IC CA   CB   SG   HG1   1.5584 113.8700  176.9600  97.1500  1.3341
 ! from http://www.chm.bris.ac.uk/pt/ajm/Alec/method6.html
 RESI JC2        -1.00
 GROUP   
-ATOM N    NH1    -0.47  !     |       
-ATOM HN   H       0.31  !  HN-N       
-ATOM CA   CT1     0.07  !     |   HB1
-ATOM HA   HB      0.09  !     |   |  
+ATOM N    NH1    -0.40  !     |       
+ATOM HN   H       0.40  !  HN-N       
+ATOM CA   CT1     0.00  !     |   HB1
+ATOM HA   HB      0.00  !     |   |  
 GROUP                   !  HA-CA--CB--SG
-ATOM CB   CT2    -0.38  !     |   |     \
-ATOM HB1  HA      0.09  !     |   HB2    HG1
-ATOM HB2  HA      0.09  !   O=C           
-ATOM SG   S      -0.80  !     |           
+ATOM CB   CT2    -0.08  !     |   |     \
+ATOM HB1  HA      0.00  !     |   HB2    HG1
+ATOM HB2  HA      0.00  !   O=C           
+ATOM SG   S      -0.92  !     |           
 ATOM HG1  HS      0.00
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB CA   SG CB   N HN  N  CA   
 BOND C  CA   C +N  CA HA  CB HB1   
 BOND CB HB2  SG HG1
@@ -942,27 +942,27 @@ IC CA   CB   SG   HG1   1.5584 113.8700  176.9600  97.1500  1.3341
 
 RESI JH1         1.00  ! Protonated His
 GROUP   
-ATOM N    NH1    -0.47  !     |          HD1    HE1
-ATOM HN   H       0.31  !  HN-N           |     /
-ATOM CA   CT1     0.07  !     |   HB1    ND1--CE1
-ATOM HA   HB      0.09  !     |   |     /      ||
+ATOM N    NH1    -0.40  !     |          HD1    HE1
+ATOM HN   H       0.40  !  HN-N           |     /
+ATOM CA   CT1     0.00  !     |   HB1    ND1--CE1
+ATOM HA   HB      0.00  !     |   |     /      ||
 GROUP                   !  HA-CA--CB--CG       ||
-ATOM CB   CT2    -0.05  !     |   |     \\     ||
-ATOM HB1  HA      0.09  !     |   HB2    CD2--NE2(+)
-ATOM HB2  HA      0.09  !   O=C           |     \
-ATOM CD2  CPH1    0.19  !     |          HD2    HE2
-ATOM HD2  HR1     0.13
-ATOM CG   CPH1    0.19
+ATOM CB   CT2     0.125  !     |   |     \\     ||
+ATOM HB1  HA      0.00 !     |   HB2    CD2--NE2(+)
+ATOM HB2  HA      0.00 !   O=C           |     \
+ATOM CD2  CPH1    0.1417  !     |          HD2    HE2
+ATOM HD2  HR1     0.125
+ATOM CG   CPH1    0.1416
 GROUP
-ATOM NE2  NR3    -0.51
-ATOM HE2  H       0.44
-ATOM ND1  NR3    -0.51
-ATOM HD1  H       0.44
-ATOM CE1  CPH2    0.32
-ATOM HE1  HR2     0.18
+ATOM NE2  NR3    -0.35
+ATOM HE2  H       0.45
+ATOM ND1  NR3    -0.35
+ATOM HD1  H       0.45
+ATOM CE1  CPH2    0.1417
+ATOM HE1  HR2     0.125
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB  CA   CG  CB   ND1 CG   CE1 ND1   
 BOND NE2 CD2  N   HN   N   CA   
 BOND C   CA   C   +N  CA  HA  CB HB1   
@@ -994,29 +994,29 @@ IC CE1  CD2  *NE2 HE2   1.3256 108.8200 -172.9400 125.5200  1.0020
 IC CE1  CG   *ND1 HD1   1.3262 108.9000  171.4900 126.0900  1.0018
 IC NE2  CG   *CD2 HD2   1.3727 106.9300 -174.4900 128.4100  1.0867
 
-RESI JH2         0.00  ! NE is deprotonated, HSD
+RESI JH2         0.00  ! NE is deprotonated, HSD -- HISA in Fitch UHBD CHARGE PARSE file
 GROUP   
-ATOM N    NH1    -0.47  !     |          HD1    HE1
-ATOM HN   H       0.31  !  HN-N           |     /
-ATOM CA   CT1     0.07  !     |   HB1    ND1--CE1
-ATOM HA   HB      0.09  !     |   |     /      ||
+ATOM N    NH1    -0.40  !     |          HD1    HE1
+ATOM HN   H       0.40  !  HN-N           |     /
+ATOM CA   CT1     0.00  !     |   HB1    ND1--CE1
+ATOM HA   HB      0.00  !     |   |     /      ||
 GROUP                   !  HA-CA--CB--CG       ||
-ATOM CB   CT2    -0.09 !     |   |     \\     ||
-ATOM HB1  HA      0.09  !     |   HB2    CD2--NE2(+)
-ATOM HB2  HA      0.09  !   O=C           |     \
-ATOM CD2  CPH1    0.22  !     |          HD2    HE2
-ATOM HD2  HR1     0.10
-ATOM CG   CPH1   -0.05
+ATOM CB   CT2     0.125 !     |   |     \\     ||
+ATOM HB1  HA      0.00  !     |   HB2    CD2--NE2(+)
+ATOM HB2  HA      0.00  !   O=C           |     \
+ATOM CD2  CPH1    0.155 !     |          HD2    HE2
+ATOM HD2  HR1     0.125
+ATOM CG   CPH1   -0.125
 GROUP
-ATOM NE2  NR3    -0.70
+ATOM NE2  NR3    -0.56
 ATOM HE2  H       0.00
-ATOM ND1  NR3    -0.36
-ATOM HD1  H       0.32
-ATOM CE1  CPH2    0.25
-ATOM HE1  HR2     0.13
+ATOM ND1  NR3    -0.40
+ATOM HD1  H       0.40
+ATOM CE1  CPH2    0.155
+ATOM HE1  HR2     0.125
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB  CA   CG  CB   ND1 CG   CE1 ND1   
 BOND NE2 CD2  N   HN   N   CA   
 BOND C   CA   C   +N  CA  HA  CB HB1   
@@ -1050,27 +1050,27 @@ IC NE2  CG   *CD2 HD2   1.3727 106.9300 -174.4900 128.4100  1.0867
 
 RESI JH3         0.00  ! ND is deprotonated, HSE
 GROUP   
-ATOM N    NH1    -0.47  !     |          HD1    HE1
-ATOM HN   H       0.31  !  HN-N           |     /
-ATOM CA   CT1     0.07  !     |   HB1    ND1--CE1
-ATOM HA   HB      0.09  !     |   |     /      ||
+ATOM N    NH1    -0.40  !     |          HD1    HE1
+ATOM HN   H       0.40  !  HN-N           |     /
+ATOM CA   CT1     0.00  !     |   HB1    ND1--CE1
+ATOM HA   HB      0.00  !     |   |     /      ||
 GROUP                   !  HA-CA--CB--CG       ||
-ATOM CB   CT2    -0.08 !     |   |     \\     ||
-ATOM HB1  HA      0.09  !     |   HB2    CD2--NE2(+)
-ATOM HB2  HA      0.09  !   O=C           |     \
-ATOM CD2  CPH1   -0.05  !     |          HD2    HE2
-ATOM HD2  HR1     0.09
-ATOM CG   CPH1    0.22
+ATOM CB   CT2     0.125 !     |   |     \\     ||
+ATOM HB1  HA      0.00 !     |   HB2    CD2--NE2(+)
+ATOM HB2  HA      0.00  !   O=C           |     \
+ATOM CD2  CPH1   -0.125  !     |          HD2    HE2
+ATOM HD2  HR1     0.125
+ATOM CG   CPH1    0.155
 GROUP
-ATOM NE2  NR3    -0.36
-ATOM HE2  H       0.32
-ATOM ND1  NR3    -0.70
+ATOM NE2  NR3    -0.40
+ATOM HE2  H       0.40
+ATOM ND1  NR3    -0.56
 ATOM HD1  H       0.00
-ATOM CE1  CPH2    0.25
-ATOM HE1  HR2     0.13
+ATOM CE1  CPH2    0.155
+ATOM HE1  HR2     0.125
 GROUP   
-ATOM C    C       0.51
-ATOM O    O      -0.51
+ATOM C    C       0.55
+ATOM O    O      -0.55
 BOND CB  CA   CG  CB   ND1 CG   CE1 ND1   
 BOND NE2 CD2  N   HN   N   CA   
 BOND C   CA   C   +N  CA  HA  CB HB1   
