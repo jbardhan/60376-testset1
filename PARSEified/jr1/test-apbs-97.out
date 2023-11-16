@@ -68,7 +68,7 @@
 
 This executable compiled on Nov 10 2023 at 20:40:50
 
-Parsing input file test-apbs.in...
+Parsing input file test-apbs-97.in...
 rank 0 size 1...
 Parsed input file.
 Got paths for 1 molecules
@@ -95,13 +95,13 @@ CALCULATION #1 (peptide-solv): MULTIGRID
   2 ion species (0.000 M ionic strength):
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
-  Solute dielectric: 2.000
+  Solute dielectric: 1.000
   Solvent dielectric: 78.540
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 3.619711270494E+03 kJ/mol
+  Total electrostatic energy = 7.230960977863E+03 kJ/mol
   Calculating forces...
 ----------------------------------------
 CALCULATION #2 (peptide-solv): MULTIGRID
@@ -121,20 +121,20 @@ CALCULATION #2 (peptide-solv): MULTIGRID
   2 ion species (0.000 M ionic strength):
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
-  Solute dielectric: 2.000
+  Solute dielectric: 1.000
   Solvent dielectric: 78.540
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 9.144482170660E+03 kJ/mol
+  Total electrostatic energy = 1.828143573489E+04 kJ/mol
   Calculating forces...
 ----------------------------------------
 CALCULATION #3 (peptide-ref): MULTIGRID
   Setting up problem...
   Vpbe_ctor:  Using max ion radius (2 A) for exclusion function
   Debye length:  0 A
-  Current memory usage:  201.286 MB total, 402.687 MB high water
+  Current memory usage:  201.747 MB total, 402.687 MB high water
   Using linear spline charge discretization.
   Grid dimensions: 97 x 97 x 97
   Grid spacings: 0.417 x 0.417 x 0.417
@@ -147,20 +147,20 @@ CALCULATION #3 (peptide-ref): MULTIGRID
   2 ion species (0.000 M ionic strength):
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
-  Solute dielectric: 2.000
+  Solute dielectric: 1.000
   Solvent dielectric: 2.000
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 3.825354838328E+03 kJ/mol
+  Total electrostatic energy = 7.468275694551E+03 kJ/mol
   Calculating forces...
 ----------------------------------------
 CALCULATION #4 (peptide-ref): MULTIGRID
   Setting up problem...
   Vpbe_ctor:  Using max ion radius (2 A) for exclusion function
   Debye length:  0 A
-  Current memory usage:  201.286 MB total, 402.687 MB high water
+  Current memory usage:  201.747 MB total, 402.687 MB high water
   Using linear spline charge discretization.
   Grid dimensions: 97 x 97 x 97
   Grid spacings: 0.208 x 0.208 x 0.208
@@ -173,20 +173,20 @@ CALCULATION #4 (peptide-ref): MULTIGRID
   2 ion species (0.000 M ionic strength):
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
-  Solute dielectric: 2.000
+  Solute dielectric: 1.000
   Solvent dielectric: 2.000
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 9.345844681730E+03 kJ/mol
+  Total electrostatic energy = 1.850919687245E+04 kJ/mol
   Calculating forces...
 ----------------------------------------
 PRINT STATEMENTS
 
 print energy 1 (peptide-solv) - 2 (peptide-ref) end
-  Local net energy (PE 0) = -2.013625110697E+02 kJ/mol
-  Global net ELEC energy = -2.013625110697E+02 kJ/mol
+  Local net energy (PE 0) = -2.277611375573E+02 kJ/mol
+  Global net ELEC energy = -2.277611375573E+02 kJ/mol
 ----------------------------------------
 CLEANING UP AND SHUTTING DOWN...
 Destroying force arrays.
