@@ -136,7 +136,7 @@ CALCULATION #3 (peptide-ref): MULTIGRID
   Setting up problem...
   Vpbe_ctor:  Using max ion radius (2 A) for exclusion function
   Debye length:  0 A
-  Current memory usage:  9.282 MB total, 17.758 MB high water
+  Current memory usage:  8.821 MB total, 17.758 MB high water
   Using linear spline charge discretization.
   Grid dimensions: 33 x 33 x 33
   Grid spacings: 1.250 x 1.250 x 1.250
@@ -150,19 +150,19 @@ CALCULATION #3 (peptide-ref): MULTIGRID
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
   Solute dielectric: 1.000
-  Solvent dielectric: 2.000
+  Solvent dielectric: 1.000
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 8.239586770633E+02 kJ/mol
+  Total electrostatic energy = 1.023959943128E+03 kJ/mol
   Calculating forces...
 ----------------------------------------
 CALCULATION #4 (peptide-ref): MULTIGRID
   Setting up problem...
   Vpbe_ctor:  Using max ion radius (2 A) for exclusion function
   Debye length:  0 A
-  Current memory usage:  9.282 MB total, 17.758 MB high water
+  Current memory usage:  8.821 MB total, 17.758 MB high water
   Using linear spline charge discretization.
   Grid dimensions: 33 x 33 x 33
   Grid spacings: 0.625 x 0.625 x 0.625
@@ -176,21 +176,21 @@ CALCULATION #4 (peptide-ref): MULTIGRID
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
   Solute dielectric: 1.000
-  Solvent dielectric: 2.000
+  Solvent dielectric: 1.000
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
   Atom potentials to be written to ref-33.txt
-  Total electrostatic energy = 3.909507974564E+03 kJ/mol
+  Total electrostatic energy = 4.090179006398E+03 kJ/mol
   Calculating forces...
   Writing atom potentials to ref-33.txt
 ----------------------------------------
 PRINT STATEMENTS
 
 print energy 1 (peptide-solv) - 2 (peptide-ref) end
-  Local net energy (PE 0) = -2.483242590210E+02 kJ/mol
-  Global net ELEC energy = -2.483242590210E+02 kJ/mol
+  Local net energy (PE 0) = -4.289952908553E+02 kJ/mol
+  Global net ELEC energy = -4.289952908553E+02 kJ/mol
 ----------------------------------------
 CLEANING UP AND SHUTTING DOWN...
 Destroying force arrays.

@@ -134,7 +134,7 @@ CALCULATION #3 (peptide-ref): MULTIGRID
   Setting up problem...
   Vpbe_ctor:  Using max ion radius (2 A) for exclusion function
   Debye length:  0 A
-  Current memory usage:  467.617 MB total, 934.428 MB high water
+  Current memory usage:  467.156 MB total, 934.428 MB high water
   Using linear spline charge discretization.
   Grid dimensions: 129 x 129 x 129
   Grid spacings: 0.312 x 0.312 x 0.312
@@ -148,19 +148,19 @@ CALCULATION #3 (peptide-ref): MULTIGRID
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
   Solute dielectric: 1.000
-  Solvent dielectric: 2.000
+  Solvent dielectric: 1.000
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 1.122250967344E+04 kJ/mol
+  Total electrostatic energy = 1.140499990613E+04 kJ/mol
   Calculating forces...
 ----------------------------------------
 CALCULATION #4 (peptide-ref): MULTIGRID
   Setting up problem...
   Vpbe_ctor:  Using max ion radius (2 A) for exclusion function
   Debye length:  0 A
-  Current memory usage:  467.617 MB total, 934.428 MB high water
+  Current memory usage:  467.156 MB total, 934.428 MB high water
   Using linear spline charge discretization.
   Grid dimensions: 129 x 129 x 129
   Grid spacings: 0.156 x 0.156 x 0.156
@@ -174,19 +174,19 @@ CALCULATION #4 (peptide-ref): MULTIGRID
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
   Solute dielectric: 1.000
-  Solvent dielectric: 2.000
+  Solvent dielectric: 1.000
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 2.431209381132E+04 kJ/mol
+  Total electrostatic energy = 2.449437364512E+04 kJ/mol
   Calculating forces...
 ----------------------------------------
 PRINT STATEMENTS
 
 print energy 1 (peptide-solv) - 2 (peptide-ref) end
-  Local net energy (PE 0) = -2.259932209149E+02 kJ/mol
-  Global net ELEC energy = -2.259932209149E+02 kJ/mol
+  Local net energy (PE 0) = -4.082730547073E+02 kJ/mol
+  Global net ELEC energy = -4.082730547073E+02 kJ/mol
 ----------------------------------------
 CLEANING UP AND SHUTTING DOWN...
 Destroying force arrays.
