@@ -127,14 +127,16 @@ CALCULATION #2 (peptide-solv): MULTIGRID
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
+  Atom potentials to be written to solv-33.txt
   Total electrostatic energy = 3.679723423532E+03 kJ/mol
   Calculating forces...
+  Writing atom potentials to solv-33.txt
 ----------------------------------------
 CALCULATION #3 (peptide-ref): MULTIGRID
   Setting up problem...
   Vpbe_ctor:  Using max ion radius (2 A) for exclusion function
   Debye length:  0 A
-  Current memory usage:  9.282 MB total, 17.758 MB high water
+  Current memory usage:  8.821 MB total, 17.758 MB high water
   Using linear spline charge discretization.
   Grid dimensions: 33 x 33 x 33
   Grid spacings: 1.250 x 1.250 x 1.250
@@ -148,19 +150,19 @@ CALCULATION #3 (peptide-ref): MULTIGRID
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
   Solute dielectric: 1.000
-  Solvent dielectric: 2.000
+  Solvent dielectric: 1.000
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 8.047586116959E+02 kJ/mol
+  Total electrostatic energy = 8.744877121498E+02 kJ/mol
   Calculating forces...
 ----------------------------------------
 CALCULATION #4 (peptide-ref): MULTIGRID
   Setting up problem...
   Vpbe_ctor:  Using max ion radius (2 A) for exclusion function
   Debye length:  0 A
-  Current memory usage:  9.282 MB total, 17.758 MB high water
+  Current memory usage:  8.821 MB total, 17.758 MB high water
   Using linear spline charge discretization.
   Grid dimensions: 33 x 33 x 33
   Grid spacings: 0.625 x 0.625 x 0.625
@@ -174,19 +176,21 @@ CALCULATION #4 (peptide-ref): MULTIGRID
     2.000 A-radius, 1.000 e-charge, 0.000 M concentration
     2.000 A-radius, -1.000 e-charge, 0.000 M concentration
   Solute dielectric: 1.000
-  Solvent dielectric: 2.000
+  Solvent dielectric: 1.000
   Using "molecular" surface definition; no smoothing
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
-  Total electrostatic energy = 3.795184419100E+03 kJ/mol
+  Atom potentials to be written to ref-33.txt
+  Total electrostatic energy = 3.852813936687E+03 kJ/mol
   Calculating forces...
+  Writing atom potentials to ref-33.txt
 ----------------------------------------
 PRINT STATEMENTS
 
 print energy 1 (peptide-solv) - 2 (peptide-ref) end
-  Local net energy (PE 0) = -1.154609955676E+02 kJ/mol
-  Global net ELEC energy = -1.154609955676E+02 kJ/mol
+  Local net energy (PE 0) = -1.730905131544E+02 kJ/mol
+  Global net ELEC energy = -1.730905131544E+02 kJ/mol
 ----------------------------------------
 CLEANING UP AND SHUTTING DOWN...
 Destroying force arrays.
