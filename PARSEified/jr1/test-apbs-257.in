@@ -1,5 +1,5 @@
 ##########################################################################
-# 1STN Base Example for Carolyn Fitch, EMSL User Project 60376
+# Blocked peptide example
 ##########################################################################
 
 read 
@@ -29,6 +29,7 @@ elec name peptide-solv
     temp 298.15
     calcenergy total
     calcforce no
+    write atompot flat solv-257
 end
 
 # peptide potential in reference medium
@@ -54,6 +55,7 @@ elec name peptide-ref
     temp 298.15
     calcenergy total
     calcforce no
+    write atompot flat ref-257
 end
 
 # CALCULATE ELECTROSTATIC FREE ENERGY OF SOLVATION

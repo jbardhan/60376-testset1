@@ -127,8 +127,10 @@ CALCULATION #2 (peptide-solv): MULTIGRID
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
+  Atom potentials to be written to solv33.txt
   Total electrostatic energy = 5.077017342934E+04 kJ/mol
   Calculating forces...
+  Writing atom potentials to solv33.txt
 ----------------------------------------
 CALCULATION #3 (peptide-ref): MULTIGRID
   Setting up problem...
@@ -179,8 +181,10 @@ CALCULATION #4 (peptide-ref): MULTIGRID
   Solvent probe radius: 0.000 A
   Temperature:  298.150 K
   Electrostatic energies will be calculated
+  Atom potentials to be written to ref33.txt
   Total electrostatic energy = 5.099280128111E+04 kJ/mol
   Calculating forces...
+  Writing atom potentials to ref33.txt
 ----------------------------------------
 PRINT STATEMENTS
 
