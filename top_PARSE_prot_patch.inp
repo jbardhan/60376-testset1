@@ -1861,9 +1861,9 @@ IC OY   CY   CAY  HY3   0.0000  0.0000  -60.0000  0.0000  0.0000
 PRES CTER        -1.00 ! standard C-terminus
 GROUP                  ! use in generate statement
 ATOM C    CC      0.10 !   OT2(-)
-ATOM O    OC     -0.55 !  /
-ATOM OXT  OC     -0.55 ! -C
-DELETE ATOM O          !  \\
+ATOM OT1  OC     -0.55 !  /
+ATOM OT2  OC     -0.55 ! -C
+DELETE ATOM O         !  \\
 BOND C OT2             !   OT1
 DOUBLE  C OT1
 !IMPR OT1 CA OT2 C
