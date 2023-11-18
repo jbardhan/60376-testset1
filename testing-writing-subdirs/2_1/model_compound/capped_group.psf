@@ -1,0 +1,83 @@
+PSF
+
+       6 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS 2 patches were applied to the molecule.
+ REMARKS topology /home/bard415/repos/60376-testset1/top_PARSE_prot_patch.inp 
+ REMARKS segment A { first ACE; last CTER; auto angles dihedrals }
+ REMARKS defaultpatch CTER A:2  
+ REMARKS patch ACE A:2  
+
+      17 !NATOM
+       1 A    2    ALA  CAY  CT3    0.000000       12.0110           0
+       2 A    2    ALA  HY1  HA     0.000000        1.0080           0
+       3 A    2    ALA  HY2  HA     0.000000        1.0080           0
+       4 A    2    ALA  HY3  HA     0.000000        1.0080           0
+       5 A    2    ALA  CY   C      0.550000       12.0110           0
+       6 A    2    ALA  OY   O     -0.550000       15.9990           0
+       7 A    2    ALA  N    NH1   -0.400000       14.0070           0
+       8 A    2    ALA  HN   H      0.400000        1.0080           0
+       9 A    2    ALA  CA   CT1    0.000000       12.0110           0
+      10 A    2    ALA  HA   HB     0.000000        1.0080           0
+      11 A    2    ALA  CB   CT3    0.000000       12.0110           0
+      12 A    2    ALA  HB1  HA     0.000000        1.0080           0
+      13 A    2    ALA  HB2  HA     0.000000        1.0080           0
+      14 A    2    ALA  HB3  HA     0.000000        1.0080           0
+      15 A    2    ALA  C    CC     0.100000       12.0110           0
+      16 A    2    ALA  OT1  OC    -0.550000       15.9990           0
+      17 A    2    ALA  OT2  OC    -0.550000       15.9990           0
+
+      16 !NBOND: bonds
+       1       2       1       3       1       4       5       1
+       5       7       6       5       7       8       7       9
+       9      10      11       9      11      12      11      13
+      11      14      15      17      15      16      15       9
+
+      27 !NTHETA: angles
+       1       5       6       1       5       7       2       1       4
+       2       1       3       3       1       4       5       7       9
+       5       7       8       5       1       4       5       1       3
+       5       1       2       7       9      10       7       9      15
+       7       5       6       8       7       9       9      11      14
+       9      11      13       9      11      12      11       9      10
+      11       9      15      11       9       7      12      11      14
+      12      11      13      13      11      14      15       9      10
+      16      15       9      17      15       9      17      15      16
+
+      31 !NPHI: dihedrals
+       1       5       7       8       1       5       7       9
+       2       1       5       7       2       1       5       6
+       3       1       5       7       3       1       5       6
+       4       1       5       7       4       1       5       6
+       5       7       9      11       5       7       9      15
+       5       7       9      10       6       5       7       8
+       6       5       7       9       7       9      11      12
+       7       9      11      13       7       9      11      14
+       7       9      15      17       7       9      15      16
+       8       7       9      11       8       7       9      15
+       8       7       9      10      10       9      11      12
+      10       9      11      13      10       9      11      14
+      10       9      15      17      10       9      15      16
+      11       9      15      17      11       9      15      16
+      12      11       9      15      13      11       9      15
+      14      11       9      15
+
+       3 !NIMPHI: impropers
+       5       1       7       6       7       5       9       8
+      15       9      17      16
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0
+
+       1       0 !NGRP
+       0       0       0
+

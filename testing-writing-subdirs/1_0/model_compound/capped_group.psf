@@ -1,0 +1,92 @@
+PSF
+
+       6 !NTITLE
+ REMARKS original generated structure x-plor psf file
+ REMARKS 2 patches were applied to the molecule.
+ REMARKS topology /home/bard415/repos/60376-testset1/top_PARSE_prot_patch.inp 
+ REMARKS segment A { first NTER; last CT3; auto angles dihedrals }
+ REMARKS patch CT3 A:2  
+ REMARKS defaultpatch NTER A:2  
+
+      15 !NATOM
+       1 A    2    ALA  N    NH3   -0.320000       14.0070           0
+       2 A    2    ALA  CA   CT1    0.330000       12.0110           0
+       3 A    2    ALA  HA   HB     0.000000        1.0080           0
+       4 A    2    ALA  CB   CT3    0.000000       12.0110           0
+       5 A    2    ALA  HB1  HA     0.000000        1.0080           0
+       6 A    2    ALA  HB2  HA     0.000000        1.0080           0
+       7 A    2    ALA  HB3  HA     0.000000        1.0080           0
+       8 A    2    ALA  C    C      0.550000       12.0110           0
+       9 A    2    ALA  O    O     -0.550000       15.9990           0
+      10 A    2    ALA  NT   NH1   -0.350000       14.0070           0
+      11 A    2    ALA  HNT  H      0.250000        1.0080           0
+      12 A    2    ALA  CAT  CT3    0.100000       12.0110           0
+      13 A    2    ALA  HT1  HC     0.330000        1.0080           0
+      14 A    2    ALA  HT2  HC     0.330000        1.0080           0
+      15 A    2    ALA  HT3  HC     0.330000        1.0080           0
+
+      17 !NBOND: bonds
+       1       2       2       3       4       2       4       5
+       4       6       4       7       8      10       8       2
+       9       8      10      11      10      12      12      13
+      12      14      12      15      13       1      14       1
+      15       1
+
+      33 !NTHETA: angles
+       1      15      12       1      14      12       1      13      12
+       1       2       3       1       2       8       2       8       9
+       2       4       7       2       4       6       2       4       5
+       4       2       3       4       2       8       4       2       1
+       5       4       7       5       4       6       6       4       7
+       8      10      12       8      10      11       8       2       3
+      10      12      15      10      12      14      10      12      13
+      10       8       9      10       8       2      11      10      12
+      13      12      15      13      12      14      13       1       2
+      13       1      15      13       1      14      14      12      15
+      14       1       2      14       1      15      15       1       2
+
+      52 !NPHI: dihedrals
+       1      15      12      10       1      15      12      13
+       1      15      12      14       1      14      12      10
+       1      14      12      13       1      14      12      15
+       1      13      12      10       1      13      12      14
+       1      13      12      15       1       2       4       5
+       1       2       4       6       1       2       4       7
+       1       2       8      10       1       2       8       9
+       2       8      10      11       2       8      10      12
+       2       1      13      12       2       1      14      12
+       2       1      15      12       3       2       4       5
+       3       2       4       6       3       2       4       7
+       3       2       1      13       3       2       1      14
+       3       2       1      15       3       2       8      10
+       3       2       8       9       4       2       1      13
+       4       2       1      14       4       2       1      15
+       4       2       8      10       4       2       8       9
+       5       4       2       8       6       4       2       8
+       7       4       2       8       8      10      12      13
+       8      10      12      14       8      10      12      15
+       8       2       1      13       8       2       1      14
+       8       2       1      15       9       8      10      11
+       9       8      10      12      11      10      12      13
+      11      10      12      14      11      10      12      15
+      12      15       1      13      12      15       1      14
+      12      14       1      13      12      14       1      15
+      12      13       1      14      12      13       1      15
+
+       2 !NIMPHI: impropers
+       8       2      10       9      10       8      12      11
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0
+
+       1       0 !NGRP
+       0       0       0
+
