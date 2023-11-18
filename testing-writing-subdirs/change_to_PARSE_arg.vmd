@@ -1,0 +1,13 @@
+mol new arg_capped_nter_cter.pdb
+package require psfgen
+topology ../top_PARSE_prot_patch.inp
+segment A {
+pdb arg_capped_nter_cter.pdb
+first nter
+last cter
+}
+coordpdb arg_capped_nter_cter.pdb A
+guesscoord
+writepsf arg_capped_nter_cter_PARSE.psf
+writepdb arg_capped_nter_cter_PARSE.pdb
+quit

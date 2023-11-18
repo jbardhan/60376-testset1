@@ -1,0 +1,13 @@
+mol new bare_group.pdb
+package require psfgen
+topology /home/bard415/repos/60376-testset1/top_PARSE_prot_patch.inp
+segment A {
+pdb bare_group.pdb
+first ace
+last ct3
+}
+coordpdb bare_group.pdb A
+guesscoord
+writepsf capped_group.psf
+writepdb capped_group.pdb
+quit
