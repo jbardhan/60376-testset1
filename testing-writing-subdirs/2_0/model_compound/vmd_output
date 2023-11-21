@@ -7,7 +7,7 @@ Info)    Molecular Dynamics', J. Molec. Graphics 1996, 14.1, 33-38.
 Info) -------------------------------------------------------------
 Info) Multithreading available, 36 CPUs detected.
 Info)   CPU features: SSE2 AVX AVX2 FMA KNL:AVX-512F+CD+ER+PF 
-Info) Free system memory: 341GB (90%)
+Info) Free system memory: 364GB (96%)
 Info) No CUDA accelerator devices available.
 Info) Dynamically loaded 2 plugins in directory:
 Info) /home/bard415/lib/vmd/plugins/LINUXAMD64/molfile
