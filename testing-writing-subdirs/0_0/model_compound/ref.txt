@@ -1,0 +1,4 @@
+# Data from APBS 3.4.1
+# 
+# ATOM POTENTIALS
+# 
