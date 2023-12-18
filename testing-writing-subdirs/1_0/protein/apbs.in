@@ -2,8 +2,8 @@
 # Junk test APBS input
 ########################################
 read
-	mol pqr /home/bard415/repos/60376-testset1/testing-writing-subdirs/neutral_protein.pqr
 	mol pqr 1_0.pqr
+	mol pqr /home/bard415/repos/60376-testset1/testing-writing-subdirs/neutral_protein.pqr
 end
 
 elec name solv
@@ -11,9 +11,9 @@ elec name solv
 	dime 33 33 33 
 	cglen 40 40 40
 	fglen 20 20 20
-	cgcent mol 1
-	fgcent mol 1
-	mol 2
+	cgcent mol 2
+	fgcent mol 2
+	mol 1
 	lpbe
 	bcfl sdh
 	ion charge 1 conc 0.0 radius 2.0
@@ -36,9 +36,9 @@ elec name ref
 	dime 33 33 33 
 	cglen 40 40 40
 	fglen 20 20 20
-	cgcent mol 1
-	fgcent mol 1
-	mol 2
+	cgcent mol 2
+	fgcent mol 2
+	mol 1
 	lpbe
 	bcfl sdh
 	ion charge 1 conc 0.0 radius 2.0
