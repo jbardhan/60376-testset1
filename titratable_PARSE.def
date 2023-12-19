@@ -1,4 +1,4 @@
-TITR    ARG     ARG     +1
+TITR    ARG     ARG     +1  12.48  # https://www.vanderbilt.edu/AnS/Chemistry/Rizzo/stuff/AA/AminoAcids.html
 CD      0.28    0.35
 HD1     0.00    0.00
 HD2     0.00    0.00
@@ -12,18 +12,18 @@ NH2    -0.75   -0.70
 HH21    0.375   0.40
 HH22    0.375   0.40
 
-TITR    GLU    GLU    -1
+TITR    GLU    GLU    -1   4.07  # 
 CD      0.55    0.10
 OE1    -0.49   -0.55
 OE2    -0.06   -0.55
 
-TITR    ASP    ASP    -1
+TITR    ASP    ASP    -1   3.90  # Same
 CG      0.55    0.10
 OD1    -0.49   -0.55
 OD2    -0.06   -0.55
 
 
-TITR    TYR    TYR    -1
+TITR    TYR    TYR    -1   10.46  # Same
 CB      0.125   0.125
 HB1     0.000   0.000
 HB2     0.000   0.000
@@ -42,7 +42,7 @@ HE2     0.125   0.125
 
 
 
-TITR   LYS      LYS    +1
+TITR   LYS      LYS    +1   10.54  # Same
 CE     0.000    0.330
 HE1    0.000    0.000
 HE2    0.000    0.000
@@ -53,7 +53,7 @@ HZ3    0.000    0.330
 
 
 
-TITR    CYS     CYS   -1
+TITR    CYS     CYS   -1   8.37  # Same
 CB      0.000   -0.080
 HB1     0.000    0.000
 HB2     0.000    0.000
@@ -61,7 +61,7 @@ SG     -0.290   -0.920
 HG1     0.290    0.000
 
 
-TITR     HSD     HSD   +1
+TITR     HSD     HSD   +1  6.04  # Same
 CB      0.125    0.125
 HB1     0.000    0.000
 HB2     0.000    0.000
@@ -75,7 +75,7 @@ HD1     0.400    0.450
 CE1     0.155    0.1417
 HE1     0.125    0.125
 
-TITR     HSE    HSE   +1
+TITR     HSE    HSE   +1  6.04  # Same
 CB      0.125    0.125
 HB1     0.000    0.000
 HB2     0.000    0.000
@@ -89,7 +89,7 @@ HD1     0.000    0.450
 CE1     0.155    0.1417
 HE1     0.125    0.125
 
-TITR   GLOBAL  NTER   +1
+TITR   GLOBAL  NTER   +1  2.00  # Roughly 
 N      -0.780   -0.320
 HT1     0.390    0.330
 HT2     0.390    0.330
@@ -97,7 +97,7 @@ HT3     0.000    0.330
 CA      0.000    0.330
 HA      0.000    0.000
 
-TITR   GLOBAL  CTER   -1
+TITR   GLOBAL  CTER   -1  9.00  # Roughly
 C       0.550    0.100
 CA      0.000    0.000
 OT1    -0.495   -0.550
